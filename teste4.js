@@ -20,7 +20,7 @@ module.exports = function (req, res) {
 
             reg.name = name ? name : reg.name;
 
-            reg.job = job ? job : reg.name;
+            reg.job = job ? job : reg.job;
 
 
             res.send(reg);
